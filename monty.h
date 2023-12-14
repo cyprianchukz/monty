@@ -72,6 +72,6 @@ void cyp_queue_opcode(stack_t **head, int n);
 void cyp_add_node(stack_t **head, int n);
 void free_stack(stack_t *head);
 void mod_opcode(stack_t **head, unsigned int counter);
-void cyp_queue(stack_t **head, unsigned int counter);
+void queue_opcode(stack_t **head, unsigned int counter);
 
 #endif

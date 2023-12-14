@@ -23,7 +23,7 @@ int exec(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"pstr", cyp_pstr_opcode},
 				{"rotl", cyp_rotl_opcode},
 				{"rotr", cyp_rotr},
-				{"queue", cyp_queue_opcode},
+				{"queue", queue_opcode},
 				{"stack", cyp_stack_opcode},
 				{NULL, NULL}
 				};
